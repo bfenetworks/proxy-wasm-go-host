@@ -1,0 +1,6 @@
+This repo is originally forked from mosn.io/proxy-wasm-go-host. Our purpose is to support Wasm Extension in Bfe (github.com/bfenetworks/bfe). The original codes were coupled with the Mosn project (mosn.io/mosn). We have modified them to remove the dependencies on the Mson project and removed some errors and some stale and redundant codes.
+
+Bfe Authors
+
+proxy-wasm-go-host
+Copyright (c) 2021 The MOSN Authors. All Rights Reserved.

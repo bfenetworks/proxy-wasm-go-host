@@ -132,8 +132,8 @@ func getWasmContext() *v1.ABIContext {
 	defer lock.Unlock()
 
 	if wasmCtx == nil {
-		//guest, err := os.ReadFile("data/http.wasm")
-		guest, err := os.ReadFile("data/main.wasm")
+		guest, err := os.ReadFile("data/http.wasm")
+		// guest, err := os.ReadFile("data/main.wasm")
 		if err != nil {
 			log.Panicln(err)
 		}
